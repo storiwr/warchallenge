@@ -25,7 +25,9 @@ struct ContentView: View {
                         .padding()
                 }
                 Spacer()
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action:{
+                    print("hello")
+                }) {
                     Image("dealbutton").padding()
                 }
                 Spacer()
